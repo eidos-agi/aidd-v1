@@ -1,20 +1,17 @@
 # CLAUDE.md — aidd-v1
 
-This is generation 1. The champion is [eidos-agi/aidd](https://github.com/eidos-agi/aidd).
+This is generation 1. Bash here.
 
-Do not bash in the champion. Do not copy its internals as a template. Do not edit its held-out evals.
+[`eidos-agi/aidd`](https://github.com/eidos-agi/aidd) is the public latest copy. Do not bash there. Copy this tree onto it when this generation wins.
 
-## Thesis
-
-First bounded bash of AIDD. Versioned generation repos. Field evals as teeth.
+Next evolution is [`aidd-v2`](https://github.com/eidos-agi/aidd-v2). Do not open it on a calendar.
 
 ## Before generating
 
 1. Read `GENERATION.md` and `EVALS.md`.
-2. Read champion `doctrine/principles.md`, `doctrine/field.md`, `layout/generations.md`.
-3. Freeze the evaluator commit in `templates/run-manifest.yaml`.
-4. Build from the thesis. Public contracts only.
+2. Copy evals forward. Do not weaken them.
+3. Freeze the evaluator in `templates/run-manifest.yaml`.
 
 ## Promote
 
-`/aidd-promote` against the champion. Human signs. If this loses, keep the repo. If this wins, push back to `aidd` and tag the outgoing champion commit on `aidd`.
+`/aidd-promote`. Human signs. Copy this repo onto `aidd`.
