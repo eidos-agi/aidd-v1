@@ -1,0 +1,31 @@
+generation: aidd-v1
+repo: eidos-agi/aidd-v1
+base_champion: eidos-agi/aidd
+thesis: "First bounded bash of AIDD. Versioned generation repos. Field evals as teeth."
+candidate_ref: eidos-agi/aidd-v1
+evaluator:
+  repo: eidos-agi/aidd
+  version: main
+  held_out: true
+agent:
+  model: unrecorded
+  tools: [repo-read]
+environment:
+  image_digest: sha256:unrecorded
+metrics:
+  success: null
+  reliability: null
+  cost: null
+  latency: null
+  safety: null
+  fitness: null
+  pass_hat_k: null
+  evo_score: null
+hard_gates:
+  held-out-isolation: pending
+  eval-teeth: pending
+  candidate-does-not-grade: pending
+  generation-is-a-repo: pending
+decision: pending
+signed_by: null
+notes: Score against frozen eidos-agi/aidd. Do not edit the scorer. Do not bash in aidd.
